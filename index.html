@@ -342,7 +342,7 @@
             crossorigin="anonymous"></script>
     </body>
 </html>
-=======
+
  <!--End Header-->  
  <!--Start of Details-->  
  <div class="p-4 mt-5 mb-5 w-100 text-center text-wrap ">
@@ -378,14 +378,34 @@
 </div>
 
 <!-------Video---->
-<div class="col w-100 bg-info mt-5 mb-5 p-5 justify-content-center m-auto">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item w-100" height="300" src="videos/hospital floor.mp4" allowfullscreen></iframe>
-  </div> 
-  <div class="col">
 
+<header>
+
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+  
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="https://cdn.coverr.co/videos/coverr-cinematic-snowy-mountains-7615/720p.mp4" type="video/mp4">
+    </video>
+  
+    <!-- The header content -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Video Header</h1>
+          <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
+        </div>
+      </div>
     </div>
-</div>
+  </header>
+
+    <!-- <div class="col w-100 bg-info mt-5 mb-5 p-5 justify-content-center m-auto midvid">
+    
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="videos/pat_doc.mp4" type="video/mp4">
+        </video>
+    </div> -->
 
 <div class="p-4 mt-5 mb-5 w-100 text-center text-wrap bg-light">
   <h2 class="font-weight-bold">Recommended for you!</h2>
@@ -444,4 +464,4 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
->>>>>>> 3ffc98a849745a247a9f96513bd8cf385250d8a7
+

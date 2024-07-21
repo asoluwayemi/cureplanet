@@ -1,0 +1,16 @@
+/* *{
+    padding:auto;
+    margin: auto;
+} */
+
+.header_image{
+    background: linear-gradient(0deg, rgba(61, 145, 247, 0.7), rgba(5, 73, 141, 0.7)), url(images/header1.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    overflow: auto;
+    /* background-image:url(images/header1.jpg); */
+}
+

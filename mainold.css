@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.navcss {
+    background-color: rgba(7, 46, 153, 0.564);
+}
+.links{
+    color: white;
+}
+
+.all{
+    border: 2px solid red;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    overlay: blue;
+    background-color: rgba(7, 46, 153, 0.564);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: #a9caed;
+}

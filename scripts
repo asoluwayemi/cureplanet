@@ -1,10 +1,10 @@
-                                    <!-- Button trigger modal -->
+                                    <!-- Button trigger modal
 <button type="button" class="btn btn-outline-info btn-lg mt-2 mb-2 text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
     Click to watch demo
-  </button>
+  </button> -->
   
   <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
      <!-- <div class="row">
                         <div class="col text-end text-light ml-3 p-5">
@@ -28,3 +28,76 @@
                             Partner with us
                         </div>
                     </div> -->
+
+
+
+                               
+            <!--End Header-->
+            <!-- Start of Details
+            <div class="p-4 mt-5 mb-5 w-100 text-center ">
+                <h2 class="font-weight-bold mtext text-wrap">
+                    Finally, software that doesn't get in the way
+                </h2 id="solution">
+                <p class="font-weight-bold text-cente" style="font-weight: 500">
+                    Cure-Planet delivers a complete technology platform
+                    purpose-built to
+                    meet the needs of independent practices. Now, physicians can
+                    effortlessly manage all major functions of their practice
+                    through one
+                    intuitive platform.
+                </p>
+                <div class="row justify-content-center mt-3 m-auto">
+                    <div class="card m-3" style="width: 20rem">
+                        <div class="card-body">
+                            <i
+                                class="fa-duotone fa-solid fa-house d-flex justify-content-start m-1"
+                                style="font-size: 5rem; color: blue"></i>
+                            <h5 class="card-title text-start mt1">
+                                Built for your independent practice, not a
+                                hospital
+                            </h5>
+                            <p class="card-text text-start">
+                                curEPlanet is purpose-built for the unique needs
+                                of independent
+                                practices, avoiding the typical complex,
+                                time-consuming, and
+                                costly functionality you don’t need.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card text-start m-3" style="width: 20rem">
+                        <div class="card-body">
+                            <i
+                                class="fa-solid fa-notes-medical d-flex justify-content-start m-1"
+                                style="font-size: 5rem; color: blue"></i>
+                            <h5 class="card-title mt-1">Designed to be friendly,
+                                flexible</h5>
+                            <p class="card-text">
+                                curEPlanet includes free support, free
+                                onboarding, free
+                                training, and clear and simple pricing that
+                                ensures you know
+                                exactly what things cost.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card text-start m-3" style="width: 20rem">
+                        <div class="card-body">
+                            <i
+                                class="fa-solid fa-heart d-flex justify-content-start m-1"
+                                style="font-size: 5rem; color: blue"></i>
+                            <h5 class="card-title mt1">Committed to your
+                                success</h5>
+                            <p class="card-text">
+                                curEPlanet goal is to enable your success by
+                                helping you and
+                                your staff make the right decisions and take the
+                                right steps to
+                                deliver results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->

@@ -25,7 +25,12 @@
   color:#1d55ce !important;
 }
 
+
 .headerbox{
   /* border: 2px solid red; */
   height: 800px;
+}
+/*heroes*/
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
 }

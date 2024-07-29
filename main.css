@@ -34,3 +34,40 @@
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
 }
+
+.initial{
+ 
+  background: linear-gradient(0deg, rgba(217, 235, 255, 0.418), rgba(214, 234, 255, 0.8)), url(images/header.jpg);
+}
+.text-1 {
+  color: #0a2d79;
+}
+.pagesection {
+  background: linear-gradient(0deg, rgba(217, 235, 255, 0.418), rgba(214, 234, 255, 0.8)), url(images/african-american.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.leftside {
+  background-image: url(images/karolina_grabowska.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.rleftside{
+  background-image: url(images/hos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.social-icons i {
+  color: #495057;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.social-icons i:hover {
+  color: #007bff;
+}
+.about {
+  height: 30vh;
+}
